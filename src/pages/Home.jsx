@@ -100,27 +100,53 @@ if (error) {
         </h1>
 
         <div className='flex justify-between mb-10'>
-        <div className="flex ">
-        <button onClick={() => setSelectCategory("All") } className="px-3 py-2 border rounded">All</button>
-        <button onClick={() => setSelectCategory("Electronics")} className="px-3 py-2 border rounded">Electronics</button>
-        <button onClick={() => setSelectCategory("Accessories")} className="px-3 py-2 border rounded">
+ <div className="flex gap-2">
+  <button
+    onClick={() => setSelectCategory("All")}
+    className={`px-3 py-2 border rounded transition ${
+      selectCategory === "All"
+        ? "bg-green-600 text-white border-green-600"
+        : "bg-white text-black"
+    }`}
+  >
+    All
+  </button>
+
+  <button
+    onClick={() => setSelectCategory("Electronics")}
+    className={`px-3 py-2 border rounded transition ${
+      selectCategory === "Electronics"
+        ? "bg-green-600 text-white border-green-600"
+        : "bg-white text-black"
+    }`}
+  >
+    Electronics
+  </button>
+
+  <button
+    onClick={() => setSelectCategory("Accessories")}
+    className={`px-3 py-2 border rounded transition ${
+      selectCategory === "Accessories"
+        ? "bg-green-600 text-white border-green-600"
+        : "bg-white text-black"
+    }`}
+  >
     Accessories
   </button>
-    </div>
+</div>
 
     <div className='flex items-center gap-5'>
-         <div className=''>
-      <input type="text" placeholder='Search Products..' value= {searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className='p-2 rounded border font-body'/>
-    </div>
+      <div className=''>
+      <input type="text" placeholder='Search Products..' value= {searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className='p-2 rounded border font-body w-36'/>
+      </div>
      <select  onChange={(e) => setPriceRange(e.target.value)} className='border rounded p-2 font-body'>
       <option value= "All">All</option>
       <option value="low">Low (Under 1000)</option>
       <option value="medium">Medium (1000-2500)</option>
       <option value="high">High (Above 5000)</option>
     </select>
-    </div>
 
-    <div>
+      <div>
       <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='p-2 rounded border font-body'>
         <option value="default">Sort By</option>
         <option value="lowToHigh">Price: Low to High</option>
@@ -128,6 +154,9 @@ if (error) {
         <option value="rating">Rating: High to Low</option>
       </select>
     </div>
+    </div>
+
+  
 
         </div>
 
