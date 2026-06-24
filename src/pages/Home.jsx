@@ -137,7 +137,7 @@ if (error) {
 
     <div className='flex items-center gap-5'>
       <div className=''>
-      <input type="text" placeholder='Search Products..' value= {searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className='p-2 rounded border font-body w-36'/>
+      <input type="text" placeholder='Search Products..' value= {searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className='p-2 rounded border font-body w-[260px]'/>
       </div>
      <select  onChange={(e) => setPriceRange(e.target.value)} className='border rounded p-2 font-body'>
       <option value= "All">All</option>
