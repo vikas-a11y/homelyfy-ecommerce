@@ -1,0 +1,15 @@
+{
+  "nav":{
+    "home":"Home",
+    "products":"Products",
+    "contact":"Contact",
+    "deals":"Deals",
+    "wishlist":"Wishlist",
+    "login":"Login",
+    "cart":"Cart",
+    "homelyfy":"Homelyfy"
+  },
+  "added_cart": "Added to Cart 🛒",
+  "added_wishlist": "Added to Wishlist ❤️"
+}
+

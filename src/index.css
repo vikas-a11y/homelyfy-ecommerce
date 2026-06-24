@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply font-body;
+}
+
+h1,h2{
+
+@apply font-heading;
+  line-height: 0.95;
+ 
+}
+
+ h3, h4, h5, h6 {
+  @apply font-heading;
+}
+
+button{
+font-family: 'Syne',sans-serif;
+}
+
+li{
+      @apply font-heading;
+}
+a{
+  font-family: 'Syne',sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.4s ease-out;
+}
+
+/* 🔥 Hindi Language Styling */
+
+html[lang="hi"] {
+  font-family: "Noto Sans Devanagari", sans-serif;
+  line-height: 1.6;
+}
+
+html[lang="hi"] nav a {
+  padding: 0 8px;
+    font-family: "Noto Sans Devanagari", sans-serif;
+    color: #1f2937 ;
+}
+
+html[lang="hi"] button {
+  padding: 8px 14px;
+  font-family: "Noto Sans Devanagari", sans-serif;
+}

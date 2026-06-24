@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Headphones",
+      "price": 1999,
+      "category": "Electronics",
+      "categorySlug": "electronics",
+      "image": "/assets/images/headphone.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 2999,
+      "category": "Electronics",
+      "categorySlug": "electronics",
+      "image": "/assets/images/watch-smart.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Leather Wallet",
+      "price": 799,
+      "category": "Accessories",
+      "categorySlug": "accessories",
+      "image": "/assets/images/wallet.jpg",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "Running Shoes",
+      "price": 3499,
+      "category": "Footwear",
+      "categorySlug": "footwear",
+      "image": "/assets/images/runing-shoes.jpg",
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Sofa Cover",
+      "price": 499,
+      "category": "Home",
+      "categorySlug": "living-room",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+      "rating": 4.3
+    },
+    {
+      "id": 6,
+      "name": "Modern Sofa",
+      "price": 1499,
+      "category": "Home",
+      "categorySlug": "living-room",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "name": "Bed Sheet Set",
+      "price": 799,
+      "category": "Home",
+      "categorySlug": "bedroom",
+      "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+      "rating": 4.2
+    },
+    {
+      "id": 8,
+      "name": "Night Lamp",
+      "price": 599,
+      "category": "Home",
+      "categorySlug": "bedroom",
+      "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c",
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "name": "Vegetable Chopper",
+      "price": 299,
+      "category": "Home",
+      "categorySlug": "kitchen",
+      "image": "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1",
+      "rating": 4.1
+    },
+    {
+      "id": 10,
+      "name": "Oil Dispenser Bottle",
+      "price": 199,
+      "category": "Home",
+      "categorySlug": "kitchen",
+      "image": "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?auto=format&fit=crop&w=800&q=80",
+      "rating": 4.0
+    },
+    {
+      "id": 11,
+      "name": "Soap Dispenser",
+      "price": 249,
+      "category": "Home",
+      "categorySlug": "bathroom",
+      "image": "https://images.unsplash.com/photo-1584622781564-1d987f7333c1",
+      "rating": 4.3
+    },
+    {
+      "id": 12,
+      "name": "Bathroom Organizer",
+      "price": 399,
+      "category": "Home",
+      "categorySlug": "bathroom",
+      "image": "https://images.unsplash.com/photo-1600585152915-d208bec867a1",
+      "rating": 4.2
+    },
+    {
+      "id": 13,
+      "name": "Garden Light",
+      "price": 499,
+      "category": "Home",
+      "categorySlug": "outdoor",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "name": "Camping Chair",
+      "price": 999,
+      "category": "Home",
+      "categorySlug": "outdoor",
+      "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4",
+      "rating": 4.6
+    },
+    {
+      "id": 15,
+      "name": "Premium Living Chair",
+      "price": 8999,
+      "oldPrice": 12999,
+      "category": "Home",
+      "categorySlug": "living-room",
+      "image": "/assets/images/living-chair.jpg",
+      "rating": 4.9,
+      "description": "Modern design with premium comfort for your living space."
+    }
+  ]
+}

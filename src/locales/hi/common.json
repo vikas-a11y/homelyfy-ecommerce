@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "होम",
+    "products": "प्रोडक्ट्स",
+    "contact": "संपर्क करें",
+    "deals": "ऑफर्स",
+    "wishlist": "विशलिस्ट",
+    "login": "लॉगिन",
+    "cart": "कार्ट",
+    "logo": "HOMELYFY"
+  },
+  "added_cart": "कार्ट में जोड़ा गया 🛒",
+    "added_wishlist": "विशलिस्ट में जोड़ा गया ❤️"
+}
